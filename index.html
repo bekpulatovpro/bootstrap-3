@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bootstrap-training</title>
+  </head>
+  <body>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="heading text-center">Movie catalog</h1>
+        <div class="row">
+          <div class="col-xl-4  col-lg-4 col-md-12">
+            <form>
+              <div>
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label"
+                ></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="ave"
+                />
+              </div>
+              <div>
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label"
+                ></label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="5"
+                />
+              </div>
+              <div>
+                <label for="exampleDataList" class="form-label"></label>
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="exampleDataList"
+                  placeholder="All"
+                />
+                <datalist id="datalistOptions">
+                  <option value="San Francisco"></option>
+                  <option value="New York"></option>
+                  <option value="Seattle"></option>
+                  <option value="Los Angeles"></option>
+                  <option value="Chicago"></option>
+                </datalist>
+              </div>
+              <div>
+                <label for="exampleDataList" class="form-label"></label>
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="exampleDataList"
+                  placeholder="Rating(high to low)"
+                />
+                <datalist id="datalistOptions">
+                  <option value="San Francisco"></option>
+                  <option value="New York"></option>
+                  <option value="Seattle"></option>
+                  <option value="Los Angeles"></option>
+                  <option value="Chicago"></option>
+                </datalist>
+              </div>
+              <button class="button btn btn-primary mt-3" type="submit">Search</button>
+            </form>
+            <div>
+              <h2 class="title mt-3">Bookmarked movies</h2>
+              <div class=" border">
+                <div class="border-1 border-bottom">
+                  <p class="table__text">Avengers:Infinity War</p>
+                  <button class="btn btn-danger border-light" type="submit">Remove</button>
+                </div>
+                <div class="  border-bottom  border-1">
+                  <p class="table__text ">The Avengers</p>
+                  <button class="btn btn-danger" type="submit">Remove</button>
+                </div>
+                <div class="border-1">
+                  <p class="table__text">12 Years a Slave</p>
+                  <button class="btn btn-danger" type="submit">Remove</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8  col-lg-8 col-md-12">
+           <h3 class="title mt-3">Search result: 39</h3>
+           <div class="alert alert-primary" role="alert">
+            Use the form on the left to search for a movie
+          </div>
+          <div class="cards">
+            <div class="card " style="width: 24rem;">
+              <img src="./img-3.jfif" class="card-img-top" alt="avengers" width="250" height="223">
+              <div class="card-body">
+                <h5 class="card-title">Avengers: Infinity War</h5>
+                <img class="icon my-3" src="./working-at-home.png" alt="icon" width="50" height="50">
+                <p>I will be programmer Inshaalloh</p>
+                
+                <div class="buttons">
+                  <button type="button" class="btn btn-outline-primary">Watch</button>
+                <button type="button" class="btn btn-outline-primary">More info</button>
+                <button type="button" class="btn btn-outline-primary">Bookmark</button>
+                </div>
+              </div>
+            </div>
+            <div class="card " style="width: 24rem;">
+              <img src="./img-2.jpg" class="card-img-top" alt="avengers" width="250" height="223">
+              <div class="card-body">
+                <h5 class="card-title">The Avengers</h5> 
+                <img class="icon my-3" src="./working-at-home.png" alt="icon" width="50" height="50">
+                <p >I will be programmer Inshaalloh</p>   
+                <div class="buttons">
+                  <button type="button" class="btn btn-outline-primary">Watch</button>
+                  <button type="button" class="btn btn-outline-primary">More info</button>
+                  <button type="button" class="btn btn-outline-primary">Bookmark</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="...">
+            <ul class="pagination pagination-lg">
+              <li class="page-item active" aria-current="page">
+                <span class="page-link">1</span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+            </ul>
+          </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

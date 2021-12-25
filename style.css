@@ -1,0 +1,59 @@
+.heading{
+    margin: 0 auto;
+    
+    padding: 0;
+}
+.form-control{
+    height: 30px;
+  
+   
+}
+.button{
+    width: 100%;
+}
+.border-1{
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+    font-weight: 700;
+}
+.col-4{
+  margin-bottom: 50px;
+}
+.cards{
+
+    display: flex;
+}
+.card:nth-child(2){
+    margin-left: 20px;
+}
+.buttons{
+    display: flex;
+    
+}
+.buttons button:nth-child(2){
+    margin: 0 10px;
+}
+.pagination{
+   margin-top: 50px;
+   margin-left: 250px; 
+
+
+}
+@media only screen and (max-width:768px) {
+    .cards{
+        flex-direction: column;
+        margin: 0 auto !important;
+       
+    }
+    .card-body{
+        margin: 0 auto;
+    }
+    .pagination{
+       margin: 0;
+       padding: 0;
+     
+     
+     }
+    
+}
